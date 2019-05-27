@@ -1,0 +1,23 @@
+{
+  "name": "smart_contracts_ui",
+  "version": "1.0.0",
+  "description": "ui for smart contracts dot domain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eth-ens-namehash": "^2.0.8",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "truffle-contract": "^3.0.1",
+    "urijs": "^1.19.0",
+    "web3": "^0.20.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "webpack": "^3.10.0"
+  }
+}

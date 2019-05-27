@@ -1,0 +1,89 @@
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="/static/custom.css" />
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Listings</a></li>
+                <li><a href="/buy/fifs">FIFS</a></li>
+                <li><a href="/sell/">Sell Domains</a></li>
+                <li><a href="/whois">ENS Owner</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class = "container">
+    <h3 class="text-center">Sell your ens name </h3>
+    <div class="col-md-offset-4 row col-md-3 sell-switch-div">
+        <select class="form-control" id="sell-switch">
+            <option>Buy Now</option>
+            <option>Auction</option>
+        </select>
+    </div>
+    <div id="sell-form-continer">
+        <div class="col-md-offset-2 col-md-10" id="buy-now-sell">
+            <div class="col-md-5">
+                <div class="input-group">
+                    <input  id="sell-input-name" type="text"
+                            class="form-control" placeholder="your eth domain"
+                            aria-describedby="basic-addon3">
+                    <span class="input-group-addon" id="basic-addon3">.eth</span>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="input-group">
+                        <input  id="sell-input-price" type="text"
+                            class="form-control" placeholder="Price"
+                            aria-describedby="basic-addon4">
+                        <span class="input-group-addon" id="basic-addon4">ETH</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-offset-2 col-md-10" id="auction-sell">
+            <div class="col-md-5">
+                <div class="input-group">
+                    <input  id="bid-input-name" type="text"
+                            class="form-control" placeholder="your eth domain"
+                            aria-describedby="basic-addon3">
+                    <span class="input-group-addon" id="basic-addon3">.eth</span>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="input-group">
+                    <input  id="bid-input-price" type="text"
+                            class="form-control" placeholder="Min Price"
+                            aria-describedby="basic-addon4">
+                    <span class="input-group-addon" id="basic-addon4">ETH</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <input  id="bid-time" type="text"
+                            class="form-control" placeholder="duration"
+                            aria-describedby="basic-addon3">
+                    <span class="input-group-addon" id="basic-addon3">seconds</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button id="list-name-button" type="button" class="btn-center btn btn-primary">List Name!</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="/static/bundle.js"></script>
+
+</body>
+</html>
