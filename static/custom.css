@@ -1,0 +1,159 @@
+body {
+    background-color: whitesmoke;
+}
+.container {
+    margin-top: 30px;
+}
+
+#fifs-buy-button {
+    margin-top: 20px;
+}
+
+.input-group{
+    margin-top: 10px;
+}
+
+#sell-form-continer{
+    margin-top: 50px;
+}
+
+.btn-center{
+    margin: 20 auto;
+}
+
+.buy-now-listing{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #bdbdbd;
+    display: block;
+    text-align: center;
+}
+
+.bid-now-listing{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #bdbdbd;
+    display: block;
+    text-align: center;
+}
+
+.buy-now-offering{
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.buy-now-button-div {
+    display:inline-block;
+    float: right;
+    margin-left: 10px;
+    padding:20px 20px;
+    margin-top: 10px;
+    border-left: 1px solid #bdbdbd;
+}
+
+.bid-now-offering{
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.bid-now-button-div {
+    display:inline-block;
+    float: right;
+    margin-left: 10px;
+    padding:20px 20px;
+    margin-top: 10px;
+    border-left: 1px solid #bdbdbd;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#listing-container {
+    background-color: white;
+    box-shadow: 0.5px 1px 1px 1px rgba(0,0,0,0.2);
+    display: inline-block;
+    margin: 30px;
+}
+
+#auction-listing-container {
+    background-color: white;
+    box-shadow: 0.5px 1px 1px 1px rgba(0,0,0,0.2);
+    display: inline-block;
+    margin: 30px;
+
+}
+
+
+
+.offerings-header {
+    background-color: white;
+    color: black;
+    padding-bottom: 3px;
+    box-shadow: 0px 0.5px 1px 1px rgba(0,0,0,0.1);
+}
+
+.single-offering-container {
+    width: 250px;
+    max-width: 250px;
+    display: inline-block;
+    background-color: white;
+    float: none;
+    margin-top: 30px;
+    margin-botton: 30px;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    font-size: 12pt;
+    border-radius: 50px;
+    box-shadow: 0.5px 2px 1px 0px rgba(179,179,179,1);
+
+}
+
+.sell-switch-div {
+    margin-top: 20px;
+    margin-botton: 20px;
+    padding-left: 50px;
+}
+
+#auction-sell {
+    display: none;
+}
+.offering-buy-button {
+    margin-top: 10px;
+}
+@-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    } 50% {
+          transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+          -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+      } 100% {
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        }
+}
+
+#whois-button {
+    margin: 30px;
+}
+
+#owner-output {
+    margin: 30px auto;
+    display: inline-block;
+}
